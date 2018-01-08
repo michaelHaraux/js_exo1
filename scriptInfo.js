@@ -15,10 +15,11 @@ function checkIndex(elem, ind, array){
 }
 
 var index = UserList.findIndex(checkIndex);
+var index = UserList.findIndex(aze);
 
 
 var goodUser = UserList[index];
-
+//--------------------------
 
 document.getElementById("name").innerHTML = goodUser.Nom.toUpperCase() + "\u0020" + goodUser.Prenom.capitalize();
 	var contentDesc = document.getElementById("contentDesc"); 
